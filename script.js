@@ -105,6 +105,10 @@ document.addEventListener('DOMContentLoaded', function() {
                     // BBH tuşu - Hesaplama formu göster
                     showBBHCalculator();
                     break;
+                case 'retin-link':
+                    // Retin Takip sayfasına yönlendirme - Yeni yöntem
+                    window.open('https://yunus553511.github.io/-retin-takip/?t=' + new Date().getTime(), '_blank');
+                    break;
                 case 'pdf':
                     // PDF tuşu - Google Drive'a yönlendirme
                     window.open('https://drive.google.com/drive/folders/1BIX8uUkgBf3LfpiFRoW4BVohHfkvCRh4', '_blank');
