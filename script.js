@@ -107,7 +107,7 @@ document.addEventListener('DOMContentLoaded', function() {
                     break;
                 case 'question':
                     // Yardım tuşu - Retin Takip sayfasına yönlendirme
-                    window.open('https://yunus553511.github.io/-retin-takip/', '_blank');
+                    window.open('https://yunus553511.github.io/-retin-takip/?v=' + new Date().getTime(), '_blank');
                     break;
                 case 'pdf':
                     // PDF tuşu - Google Drive'a yönlendirme
