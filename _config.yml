@@ -1,2 +1,5 @@
 # GitHub Pages yapılandırması
 future: true
+cache: false
+force_reload: true
+no_cache: true
