@@ -50,10 +50,7 @@ const server = http.createServer((req, res) => {
       
       // Set the content type based on file extension
       const contentType = MIME_TYPES[ext] || 'application/octet-stream';
-      res.writeHead(200, { 
-        'Content-Type': contentType,
-        'Cache-Control': 'no-store, no-cache, must-revalidate, proxy-revalidate, max-age=0'
-      });
+      res.writeHead(200, { 'Content-Type': contentType });
       res.end(data);
     });
   });
