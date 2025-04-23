@@ -105,7 +105,7 @@ document.addEventListener('DOMContentLoaded', function() {
                     break;
                 case 'info':
                     // Bilgi tuşu - Google Sheets'e yönlendirme
-                    window.open('https://docs.google.com/spreadsheets/d/1Xyi09La_lbrDqAegunirzjslBoDeVYTz/edit?gid=1838862525#gid=1838862525', '_blank');
+                    window.open('https://yunus553511.github.io/kal-p-rapor/');
                     break;
                 default:
                     showDetailedMessage('BİLGİ', 'Bu özellik henüz aktif değildir.');
