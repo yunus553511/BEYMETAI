@@ -111,7 +111,7 @@ document.addEventListener('DOMContentLoaded', function() {
                     break;
                 case 'pdf':
                     // PDF tuşu - Google Drive'a yönlendirme
-                    window.open('https://drive.google.com/drive/folders/1BIX8uUkgBf3LfpiFRoW4BVohHfkvCRh4', '_blank');
+                    window.open('https://drive.google.com/drive/u/2/folders/1oq56oGkpRUYvNBOSHMAVINr-zouw00zM', '_blank');
                     break;
                 case 'info':
                     // Bilgi tuşu - Google Sheets'e yönlendirme
